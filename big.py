@@ -18,9 +18,9 @@ i = 0
 while guess != num:
     i += 1
     guess = st.number_input(input("你猜數字多少：")
-    if (guess) == num:
+    if (guess == num):
         st.write("恭喜，你猜對了！")
-    elif (guess) < num:
+    elif (guess < num):
         st.write("再大一點！！")
     else:
         st.write("再小一點！！")
