@@ -10,8 +10,8 @@ elif (GuessGame.lower() == "yes"):
 else:
     exit()
 
-rang1 = st.number_input(input("請設定本局遊戲的最小值:")
-rang2 = st.number_input(input("請設定本局遊戲的最大值:")
+rang1 = st.number_input("請設定本局遊戲的最小值:")
+rang2 = st.number_input("請設定本局遊戲的最大值:")
 num = random.randint(rang1,rang2)
 guess = "guess"
 i = 0
