@@ -1,9 +1,8 @@
 import streamlit as st
 
-st.write('歡迎進入猜數字遊戲，玩家們準備好了嗎？')
-confirm_input=st.button('輸入確認')
 rang1 = st.number_input("請設定本局遊戲的最小值:")
 rang2 = st.number_input("請設定本局遊戲的最大值:")
+confirm_input=st.button('輸入確認')
 num = random.randint(rang1,rang2)
 guess = "guess"
 i = 0
@@ -16,4 +15,4 @@ while guess != num:
         st.write("再大一點！！")
     else:
         st.write("再小一點！！")
-st.write("你總共猜了%d" %i + "次"",快點再來一局！！！")
+
