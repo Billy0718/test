@@ -9,13 +9,13 @@ filename = './训练记录.log'
 info = '''      日语五十音图练习
                 by dreamingc
 confirm_input=st.button('请选择练习内容')
-    1：平假名练习
-    2：片假名练习
-    3：混合练习
-'''
 if confirm_input :
-  if info2 = (1,2,3):
-    st.write(开始训练，按 ctrl+C 强行停止)
+  if info2 = '1':
+    st.write(平假名练习)
+  if info2 = '2':
+    st.write(片假名练习)
+  if info2 = '3':
+    st.write(混合练习)
   else:
     st.write(输入有误，请重新输入)
 
