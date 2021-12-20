@@ -13,10 +13,11 @@ confirm_input=st.button('请选择练习内容')
     2：片假名练习
     3：混合练习
 '''
-if confirm_input = (1,2,3):
-  st.write(开始训练，按 ctrl+C 强行停止)
-else:
-  st.write(输入有误，请重新输入)
+if confirm_input :
+  if info2 = (1,2,3):
+    st.write(开始训练，按 ctrl+C 强行停止)
+  else:
+    st.write(输入有误，请重新输入)
 
 st.write(info)
 tim1 = time.localtime(time.time())
