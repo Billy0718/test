@@ -8,13 +8,15 @@ yin = ['a', 'i', 'u', 'e', 'o', 'ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si/shi', 's
 filename = './训练记录.log'
 info = '''      日语五十音图练习
                 by dreamingc
-请选择练习内容：
+confirm_input=st.button('请选择练习内容')
     1：平假名练习
     2：片假名练习
     3：混合练习
 '''
-info2 ='''开始训练，按 ctrl+C 强行停止'''
-输入错误 = "输入有误，请重新输入"
+if confirm_input:
+  info2 ='''开始训练，按 ctrl+C 强行停止'''
+else:
+  输入错误 = "输入有误，请重新输入"
 
 st.write(info)
 tim1 = time.localtime(time.time())
