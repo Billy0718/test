@@ -9,7 +9,7 @@ yin = ['a', 'i', 'u', 'e', 'o', 'ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si/shi', 's
 filename = './训练记录.log'
 info = '''      日语五十音图练习
                 by dreamingc
-confirm_input=st.button('輸入確認')               
+               
     1：平假名练习
     2：片假名练习
     3：混合练习
