@@ -22,7 +22,7 @@ tim1 = time.localtime(time.time())
 start = time.time()
 
 
-aa = st.number_input()
+aa = st.number_inpu()
 while aa not in ['1','2','3']:
     st.write(输入错误)
     aa = st.number_input()
